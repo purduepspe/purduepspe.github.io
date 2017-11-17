@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+	<title>Purdue Society of Professional Engineers</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+	<div id="header_include"></div>
+
+	<div class="container main_text">
+		<div class="col-lg-9 col-md-9 col-sm-12 text">
+			<div class="title">
+				<h2>Upcoming Events</h2>
+				<span class="byline">See what's happening wtih PSPE</span>
+			</div>
+
+			<iframe frameborder="0" height="600" scrolling="no" src="https://www.google.com/calendar/embed?src=purduesocprofeng%40gmail.com&amp;ctz=America/New_York" style="border: 0" width="600"></iframe>
+
+
+		</div>
+		
+		<div id="sideNav"></div>
+	</div>
+
+	<div id="footer"></div>
+
+	<script>
+		$("#header_include").load("../header.html");
+		$("#sideNav").load("../sideNav.html");
+		$("#footer").load("../footer.html");
+	</script>
+
+</body>
+</html>

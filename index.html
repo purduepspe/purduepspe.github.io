@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<head>
+	<title>Purdue Society of Professional Engineers</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+	<header class="navbar navbar-custom navbar-fixed-top" id="header" data-scrollspy="scrollspy" role="navigation">
+		<div class="container"> 
+			<div class="navbar-header">
+				<a class="navbar-brand" href="">PSPE</a>
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+					<i class="fa fa-bars"></i>
+				</button>
+			</div>
+			<div class="navbar-collapse navbar-responsive-collapse collapse bs-js-navbar-scrollspy navbar-right">
+				<ul class="nav navbar-nav navcolor">
+					<li><a class="page-scroll" href="events">Events</a></li>
+					<li><a class="page-scroll" href="history">History</a></li>
+					<li><a class="page-scroll" href="contact">Contact</a></li>
+					<li><a class="page-scroll" href="member">Membership</a></li>
+					<li><a class="page-scroll" href="roundtable">Research Roundtable</a></li>
+					<li><a class="page-scroll" href="rube">Rube Goldberg</a></li>
+					<li><a class="page-scroll" href="oe">OE</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+
+	<div class="carousel_container">
+		<div class="container">
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+					<li data-target="#myCarousel" data-slide-to="3"></li>
+					<li data-target="#myCarousel" data-slide-to="4"></li>
+				</ol>
+
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner">
+					<div class="item active">
+						<img src="images/OE_2017.jpg" alt="Los Angeles">
+					</div>
+
+					<div class="item">
+						<img src="images/IMG_8456.jpg" alt="Chicago">
+					</div>
+
+					<div class="item">
+						<img src="images/Rube_team_pic.jpg" alt="New york">
+					</div>
+
+					<div class="item">
+						<img src="images/OE.png" alt="New york">
+					</div>
+
+					<div class="item">
+						<img src="images/IMG_8254.jpg" alt="New york">
+					</div>
+				</div>
+
+				<!-- Left and right controls -->
+				<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#myCarousel" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="container main_text_home">
+		<div class="col-lg-9 col-md-9 col-sm-12 text">
+			<div class="title">
+				<h2>About Us</h2>
+				<span class="byline">Purdue Society of Professional Engineers</span>
+			</div>
+
+			<img src="images/img01.jpg" width="700" height="200" alt="" class="image image-full" />
+
+			<p>The <strong>Purdue Society of Professional Engineers</strong> is
+			affiliated with the National Society of Professional Engineers, the
+			Indiana Society of Professional Engineers and the AA Potter chapter in
+			Indiana. All of these organizations have outstanding reputations and
+			are well known in the engineering field. The goal of this organization
+			and its parent organizations is to promote professionalism, leadership
+			and ethics within the engineering profession.</p>
+			<p> The Purdue Society of Professional Engineers is also an active
+			organization in the school. In December and April, PSPE hosts the Order
+			of the Engineer event for both graduating engineers and professionals.
+			Those who participate get a ring and a certificate. For more
+			information, including how to register, visit the Events page on the
+			left. </p>
+			<p> PSPE is also the parent organization of the Rube Goldberg Team.
+			This team builds a machine for a design competition. Our team has
+			enjoyed success at both the reigonal and the national level for the
+			past several years. More information is available at the <a href="http://web.ics.purdue.edu/%7Epe/">Rube Goldberg website</a>. </p>
+		</div>
+		
+		<div id="sideNav"></div>
+	</div>
+
+	<div id="footer"></div>
+
+	<script>
+		$("#header_include").load("header.html");
+		$("#sideNav").load("sideNav.html");
+		$("#footer").load("footer.html");
+	</script>
+
+</body>
+</html>
