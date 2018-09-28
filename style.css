@@ -96,6 +96,7 @@ h3 {
 	padding-top: 25px;
 	padding-bottom: 10px;
 	text-align: center;
+	min-height: 100%;
 }
 
 .title {
