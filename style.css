@@ -121,6 +121,9 @@ h3 {
 .text p {
 	line-height: 180%;
 }
+.center {
+	text-align: center;
+}
 .image-full {
 	margin: 0 0 20px 0;
 	width: 100%;
