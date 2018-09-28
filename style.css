@@ -98,6 +98,9 @@ h3 {
 	text-align: center;
 	min-height: 100vh;
 }
+.footer-height {
+	max-height: 300px;
+}
 
 .title {
 	margin-bottom: 30px;
