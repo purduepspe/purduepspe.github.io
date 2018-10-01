@@ -103,7 +103,7 @@ h3 {
 }
 
 .sponsor-height {
-	min-height: 100vh;
+	height: 100vh;
 }
 .title {
 	margin-bottom: 30px;
