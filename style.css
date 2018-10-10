@@ -493,7 +493,6 @@ a.icon:hover + .ch-info {
 }
 
 .flex-content {
-	margin-top:-;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
