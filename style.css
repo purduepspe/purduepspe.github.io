@@ -38,7 +38,7 @@ h3 {
 	color: white;
 }
 #header_include {
-	margin:0;
+	margin-bottom:0px;
 }
 
 .navbar-toggle {
@@ -493,6 +493,7 @@ a.icon:hover + .ch-info {
 }
 
 .flex-content {
+	margin-top:-;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
