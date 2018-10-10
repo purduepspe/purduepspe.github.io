@@ -443,6 +443,7 @@ a.icon:hover + .ch-info {
 }
 .rr-event-flex {
 	display: flex;
+	min-width: 100px;
 	flex-direction: row;
 	justify-content: space-around;
 	align-content: center;
