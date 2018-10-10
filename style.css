@@ -481,3 +481,10 @@ a.icon:hover + .ch-info {
 .rr-event h2 {
 	color: #0A6EAC;
 }
+.gutter {
+	background-color: lightgrey;
+	height: 100%;
+}
+
+
+
