@@ -434,8 +434,8 @@ a.icon:hover + .ch-info {
 }
 
 .rr-pic {
-	max-width: 100%;
-	height: auto;
+	width: auto;
+	height: 100%;
 	flex-grow: 1;
 }
 .rr-event-flex {
