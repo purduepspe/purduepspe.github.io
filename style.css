@@ -452,6 +452,31 @@ a.icon:hover + .ch-info {
 	padding: 15px;
 	background-color: #dff3fd;
 }
+.rr-registration {
+	margin: 10px;
+	background-color: #dff3fd;
+	color: #454445;
+	border: 2px solid #454445;
+	font-weight: 600;
+}
+
+.rr-registration-buttons a:hover {
+	background-color: #454445;
+	color: #dff3fd;
+	
+}
+.rr-title {
+	margin-bottom: 10px;
+}
+.rr-indent {
+	margin-left: 50px;
+}
+.rr-indent-20 {
+	margin-left: 20px;
+}
+.rr-list {
+	display: list-item;
+}
 
 .rr-event h2 {
 	color: #0A6EAC;
