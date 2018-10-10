@@ -37,6 +37,9 @@ h3 {
 	border-bottom: none;
 	color: white;
 }
+#header_include {
+	margin:0;
+}
 
 .navbar-toggle {
 	margin: 0 15px 0 0;
