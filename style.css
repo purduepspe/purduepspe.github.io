@@ -431,6 +431,28 @@ a.icon:hover + .ch-info {
 	.title .byline {
 		font-size: 16px;
 	}
+}
 
+.rr-pic {
+	max-width: 100%;
+	height: auto;
+	flex-grow: 1;
+}
+.rr-event-flex {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-content: center;
+	max-height: 300px;
+}
+.rr-event {
+	display: block;
+	border: 5px solid #454445;
+	text-align: center;
+	padding: 15px;
+	background-color: #dff3fd;
+}
 
+.rr-event h2 {
+	color: #0A6EAC;
 }
