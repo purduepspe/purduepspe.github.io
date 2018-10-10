@@ -489,5 +489,10 @@ a.icon:hover + .ch-info {
 	min-height: 100%;
 }
 
+.flex-content {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
 
 
