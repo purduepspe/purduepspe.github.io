@@ -485,6 +485,9 @@ a.icon:hover + .ch-info {
 	background-color: lightgrey;
 	min-height: 100%;
 }
+.main_content {
+	min-height: 100%;
+}
 
 
 
