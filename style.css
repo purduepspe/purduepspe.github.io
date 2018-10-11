@@ -84,6 +84,8 @@ h3 {
 .main_text {
 	margin-top: 80px;
 	margin-bottom: 30px;
+	margin-left: 0px;
+	margin-right: 0px;
 }
 .main_text_home {
 	margin-top: 30px;
@@ -445,7 +447,7 @@ a.icon:hover + .ch-info {
 	display: flex;
 	min-width: 100px;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: center;
 	align-content: center;
 	max-height: 300px;
 }
@@ -499,5 +501,7 @@ a.icon:hover + .ch-info {
 	justify-content: space-between;
 	align-items: stretch;
 }
-
+.rr-flexbox-container {
+	display: flex;
+}
 
