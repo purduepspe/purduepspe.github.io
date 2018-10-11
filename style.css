@@ -93,7 +93,8 @@ h3 {
 }
 .main_text_rr {
 	margin-top: 50px;
-	margin-bottom: 0px
+	margin-bottom: 0px;
+	padding-top: 10px;
 }
 
 .join {
