@@ -94,7 +94,6 @@ h3 {
 .main_text_rr {
 	margin-top: 50px;
 	margin-bottom: 0px;
-	padding-top: 10px;
 }
 
 .join {
@@ -478,6 +477,9 @@ a.icon:hover + .ch-info {
 }
 .rr-title {
 	margin-bottom: 10px;
+}
+.rr_title {
+	margin-top: 10px;
 }
 .rr-indent {
 	margin-left: 50px;
