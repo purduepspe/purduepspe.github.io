@@ -458,6 +458,7 @@ a.icon:hover + .ch-info {
 .rr-event {
 	display: block;
 	border: 5px solid #454445;
+	overflow-y: auto;
 	text-align: center;
 	padding: 15px;
 	background-color: #dff3fd;
