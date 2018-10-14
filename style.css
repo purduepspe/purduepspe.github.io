@@ -471,6 +471,11 @@ a.icon:hover + .ch-info {
 	font-weight: 600;
 }
 
+.rr-info {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
 .rr-registration-buttons a:hover {
 	background-color: #454445;
 	color: #dff3fd;
