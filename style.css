@@ -526,7 +526,6 @@ a.icon:hover + .ch-info {
 	display: flex;
 	color: black;
 	flex-direction: column;
-	justify-content: space-around;
 	min-height: 100px;
 	min-width: 60%;
 	border: 7px solid rgb(194,142,15);
