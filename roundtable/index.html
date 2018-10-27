@@ -26,6 +26,9 @@
 					<h2>Research Roundtable</h2>
 					<span class="byline">Purdue Society of Professional Engineers</span>
 				</div>
+				<div class="rr-banner-onpage">
+					<span class="rr-banner-button rr-flyer-dayof"> &nbsp;<u>Download</u>&nbsp; The Official Event Flyer For The Event</span>
+				</div>
 				<h1 class="rr-title">About Research Roundtable</h1>
 						<p>The Purdue Society of Professional Engineers and the Purdue Office of Undergraduate Research invite all undergraduate students as well as research mentors, programs and directors to attend the 8th annual Purdue Research Roundtable. This event is similar to a job/career fair and offers students seeking research opportunities the chance to explore available opportunities at Purdue.</p>
 						<p>Interested students can receive timely updates and a complete list of research attendees by registering below. Undergraduate research mentors, programs, and directors may host a booth to find and interact with students interested in research opportunities. Groups and individuals with openings for student researchers must submit a Qualtrics registration form by <b>Monday, October 15th</b> to be included in the Research Roundtable</p>
@@ -44,7 +47,7 @@
 							</div>
 							<div class="rr-registration-buttons rr_title center">
 								<a target="_blank" class="btn rr-registration btn-lg" href="https://purdue.ca1.qualtrics.com/jfe/form/SV_0ebK9lrMkDYYwC1" role="button">Student Registration</a>
-								<a target="_blank" class="btn rr-registration btn-lg" href="https://purdue.ca1.qualtrics.com/jfe/form/SV_2gDw5ZKzqQDbq2V" role="button">Researcher Registration</a>
+								<a target="_blank" class="btn rr-registration btn-lg" href="rr-poster.jpg" role="button">Download Flyer</a>
 							</div>
 						</div>
 					</div>	
@@ -141,6 +144,9 @@
 			$("#header_include").load("../header.html");
 			// $("#sideNav").load("../sideNav.html");
 			$("#footer").load("../footer.html");
+			$(".rr-flyer-dayof").on("click touch", function(event) {
+				window.open("studentFlier.pdf", "_blank");
+			});
 		</script>
 	</body>
 </html>
