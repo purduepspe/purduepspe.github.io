@@ -536,15 +536,12 @@ a.icon:hover + .ch-info {
 	background-color: rgb(194,142,15);
 }
 
-.rr-flex {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-}
+
 
 .rr-banner-onpage {
 	display: flex;
 	flex-direction: row;
+	justify-content: center;
 	align-content: center;
 	min-height: 50px;
 	text-align: center;
