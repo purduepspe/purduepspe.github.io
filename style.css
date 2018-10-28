@@ -82,10 +82,7 @@ h3 {
 
 
 .main_text {
-	margin-top: 80px;
-	margin-bottom: 30px;
-	margin-left: 0px;
-	margin-right: 0px;
+	margin: 80px auto 30px;
 }
 .main_text_home {
 	margin-top: 30px;
