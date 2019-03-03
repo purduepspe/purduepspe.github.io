@@ -216,6 +216,7 @@ h3 {
     text-transform: uppercase;
     font-weight: 600;
     color: #FFF;
+    cursor: pointer;
 }
 .button-big {
     padding: 30px 0;
