@@ -561,6 +561,34 @@ a.icon:hover + .ch-info {
 }
 
 
+.button_whole {
+	font-size: 0;
+}
+.button_half {
+	width: 50%;
+	display: inline-block;
+	text-align: center;
+}
+.button_half button {
+	color: #df9f00;
+	font-size: 15px;
+	background: transparent;
+	box-shadow: none;
+	border: none;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 6px 10px 8px;
+	border: 1px solid #df9f00;
+	border-radius: 7px;
+	transition: all 0.3s;
+}
+.button_half button:hover {
+	color: #fff;
+	background: #df9f00;
+	transition: all 0.3s;
+}
+
+
 .email1 {
 	background-color: rgb(39, 174, 96);
 }
