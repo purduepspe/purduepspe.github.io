@@ -92,15 +92,10 @@ h3 {
 	margin-top: 50px;
 	margin-bottom: 0px;
 }
-
-.join {
-	padding-top: 75px;
-	padding-bottom: 75px;
-}
 .social {
-	background-color: #000;
+	background-color: #333;
 	padding-top: 25px;
-	padding-bottom: 10px;
+	padding-bottom: 25px;
 	text-align: center;
 	max-height: 400px;
 }
@@ -110,6 +105,24 @@ h3 {
 
 .sponsor-height {
 	min-height: 75vh;
+}
+
+.join {
+	padding: 75px 0;
+	background-color: #f6f6f6;
+}
+.join h2 {
+	margin: 0;
+	padding: 0;
+	font-weight: 400;
+	font-size: 45px;
+	color: #3E454C;
+}
+.join span {
+	display: block;
+	font-size: 20px;
+	color: #0A6EAC;
+	margin-top: 15px;
 }
 .title {
 	margin-bottom: 30px;
@@ -122,11 +135,10 @@ h3 {
 	margin-top: 0;
 }
 .title .byline {
-	letter-spacing: 0.15em;
-	text-transform: uppercase;
-	font-weight: 400;
-	font-size: 19px;
+	display: block;
+	font-size: 20px;
 	color: #0A6EAC;
+	margin-top: 15px;
 }
 .text {
 	padding-right: 30px;
@@ -182,24 +194,6 @@ h3 {
 }
 .subtitle ul li:first-child {
 	border-top: none;
-}
-
-.join {
-	background-color: #f6f6f6;
-}
-
-.join h2 {
-	margin: 0;
-	padding: 0;
-	font-weight: 400;
-	font-size: 45px;
-	color: #3E454C;
-}
-.join span {
-	display: block;
-	font-size: 20px;
-	color: #0A6EAC;
-	margin-top: 15px;
 }
 
 .button {
