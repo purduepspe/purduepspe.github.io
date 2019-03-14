@@ -19,12 +19,11 @@
 	</script>
 </head>
 <body>
+	<div id="header_include"></div>
 	<script>
 		$("#header_include").load("header.html");
-		$("#sideNav").load("sideNav.html");
 	</script>
 
-	<div id="header_include"></div>
 	
 	<div class="carousel_container">
 		<div class="container">
@@ -84,6 +83,7 @@
 	<div id="footer"></div>
 
 	<script>
+		$("#sideNav").load("sideNav.html");
 		$("#footer").load("footer.html");
 	</script>
 
