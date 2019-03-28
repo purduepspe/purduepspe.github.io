@@ -10,6 +10,8 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-45850137-2"></script>
+	<!-- Youtube Video Resizer -->
+	<script src="../fitvids/jquery.fitvids.js"></script> 
 	<script>
 		window.dataLayer = window.dataLayer || [];
 		function gtag(){dataLayer.push(arguments);}
@@ -54,6 +56,10 @@
 		$("#sideNav").load("../sideNav.html");
 		$("#footer").load("../footer.html");
 
+		//youtube window resizer
+		$(document).ready(function(){
+			$('iframe[src="https://www.youtube.com/embed/zPVH2admAuw"]').parent().fitVids();
+		});
 
 	</script>
 
