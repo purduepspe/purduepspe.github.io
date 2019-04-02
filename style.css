@@ -79,7 +79,8 @@ h3 {
 }
 
 .navbar-custom a {
-	color: white;
+	color: black;
+	background-color: white;
 }
 
 /* End Navbar Section */
