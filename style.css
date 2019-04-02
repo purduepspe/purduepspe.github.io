@@ -704,5 +704,6 @@ a.icon:hover + .ch-info {
 
 /*contact page office hours grid*/
 .grid-element {
-	margin-left: 10px !important;
+	padding-left: 5px;
+	padding-right: 5px;
 }
