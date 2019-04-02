@@ -40,6 +40,11 @@ h3 {
 #header_include {
 	margin-bottom:0px;
 }
+.navbar-header {
+	margin: 0px;
+	padding: 0px;
+	align-self: center;
+}
 
 .navbar-toggle {
 	margin: 0 15px 0 0;
