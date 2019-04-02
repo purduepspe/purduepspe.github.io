@@ -46,6 +46,15 @@ h3 {
 	align-self: center;
 }
 
+.navbar-flex {
+	width: 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+
 .navbar-toggle {
 	margin: 0 15px 0 0;
 	padding: 14px 10px;
