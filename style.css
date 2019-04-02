@@ -71,6 +71,7 @@ h3 {
 
 .navcolor a:hover {
 	color: rgb(223,159,0);
+	background-color: white;
 }
 
 .navbar-custom .navbar-brand:focus {
