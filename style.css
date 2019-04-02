@@ -83,6 +83,16 @@ h3 {
 	background-color: white;
 }
 
+
+.new-nav {
+	color: black !important;
+	background-color: white !important;
+}
+
+.new-nav:hover {
+	color: rgb(223, 159,0) !important;
+}
+
 /* End Navbar Section */
 
 .carousel_container {
