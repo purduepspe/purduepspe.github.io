@@ -696,3 +696,13 @@ a.icon:hover + .ch-info {
 	-ms-transform: scale(1);
 	transform: scale(1);	
 }
+
+
+
+
+
+
+/*contact page office hours grid*/
+.grid-element {
+	padding-left: 10px;
+}
