@@ -582,6 +582,27 @@ a.icon:hover + .ch-info {
 	transition: all 0.3s;
 }
 
+.button-donate{
+	color: #df9f00;
+	font-size: 15px;
+	background: transparent;
+	box-shadow: none;
+	border: none;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 6px 10px 8px;
+	border: 1px solid #df9f00;
+	border-radius: 7px;
+	transition: all 0.3s;
+}
+
+.button-donate:hover {
+	color: #fff;
+	background: #df9f00;
+	transition: all 0.3s;
+}
+
+
 
 .email1 {
 	background-color: rgb(39, 174, 96);
