@@ -69,6 +69,11 @@ h3 {
 }
 
 
+.logo {
+	background-image: url('./images/PSPE_Vertical.png');
+}
+
+
 /* End Navbar Section */
 
 .carousel_container {
