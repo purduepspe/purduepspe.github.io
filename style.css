@@ -71,7 +71,8 @@ h3 {
 
 .logo {
 	background-image: './images/PSPE_Vertical.png';
-	height: 40px;
+	min-height: 100%;
+	width: auto;
 	
 }
 
