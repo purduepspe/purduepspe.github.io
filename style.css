@@ -57,7 +57,7 @@ h3 {
 
 .navcolor a:hover {
 	color: white;
-	background-color: black !important;
+	background-color: #df9f00 !important;
 }
 
 .navbar-custom .navbar-brand:focus {
@@ -65,7 +65,7 @@ h3 {
 }
 
 .navbar-custom a {
-	color: white;
+	color: black;
 }
 
 
