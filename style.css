@@ -57,7 +57,7 @@ h3 {
 
 .navcolor a:hover {
 	color: orange;
-	background-color: black;
+	background-color: black !important;
 }
 
 .navbar-custom .navbar-brand:focus {
@@ -68,9 +68,6 @@ h3 {
 	color: black;
 }
 
-.navbar-custom span {
-	color:;
-}
 
 /* End Navbar Section */
 
