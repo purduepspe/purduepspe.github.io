@@ -27,7 +27,7 @@ h3 {
 /* Begin Navbar Section */
 
 #header {
- 	background-color: #333;
+ 	background-color: #df9f00;
 	position: fixed;
 	top: 0px;
 	left: 0;
@@ -35,7 +35,8 @@ h3 {
 	padding: 0;
 	margin: 0;
 	border-bottom: none;
-	color: white;
+	font-weight: bold;
+	color: black;
 }
 #header_include {
 	margin-bottom:0px;
@@ -51,11 +52,11 @@ h3 {
 }
 
 .navcolor a:visited { 
-	color: #FFF;
+	color: black;
 }
 
 .navcolor a:hover {
-	color:black;
+	color: white;
 }
 
 .navbar-custom .navbar-brand:focus {
@@ -63,7 +64,7 @@ h3 {
 }
 
 .navbar-custom a {
-	color: #FFF;
+	color: black;
 }
 
 /* End Navbar Section */
