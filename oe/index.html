@@ -19,6 +19,13 @@
 
 		gtag('config', 'UA-45850137-2');
 	</script>
+
+
+	<style>
+		.hidden {
+			display: none;
+		}
+	</style>
 </head>
 <body>
 
@@ -31,7 +38,7 @@
 				<span class="byline">Purdue Society of Professional Engineers</span>
 			</div>
 			<div align="center">
-				<center>
+				<center id="late-notice">
 					<div class="alert alert-danger" role="alert">
   					If you have not paid or want to participate even though you're late, please email <a href="mailto:garg71@purdue.edu">Sagar Garg</a> and you may be able to attend a make-up Order of the Engineer Session
 					</div>
@@ -100,6 +107,26 @@
 		$("#header_include").load("../header.html");
 		$("#sideNav").load("../sideNav.html");
 		$("#footer").load("../footer.html");
+		
+		function hideNotice(){
+			var current_date = new Date();
+
+			var year = current_date.getFullYear();
+			var month = current_date.getMonth() + 1;
+			var day = current_date.getDate();
+
+
+			if(year === 2019 && month === 4 && day >= 24){
+				$('#late-notice').addClass('hidden');
+			}
+		}
+
+		hideNotice();
+
+		
+
+		
+
 	</script>
 
 </body>
