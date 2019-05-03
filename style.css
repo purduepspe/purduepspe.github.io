@@ -137,6 +137,7 @@ h3 {
 }
 .title {
 	margin-bottom: 30px;
+	/*#0A6EAC*/
 }
 .title h2 {
 	font-weight: 400;
@@ -148,7 +149,7 @@ h3 {
 .title .byline {
 	display: block;
 	font-size: 20px;
-	color: #0A6EAC;
+	color: #df9f00;
 	margin-top: 15px;
 }
 .title .bylinegold {
