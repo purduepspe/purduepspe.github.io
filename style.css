@@ -151,6 +151,12 @@ h3 {
 	color: #0A6EAC;
 	margin-top: 15px;
 }
+.title .bylinegold {
+	display: block;
+	font-size: 20px;
+	color: #df9f00;
+	margin-top: 15px;
+}
 .text {
 	padding-right: 30px;
 }
