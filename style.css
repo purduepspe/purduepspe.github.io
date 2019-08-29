@@ -465,6 +465,14 @@ a.icon:hover + .ch-info {
 	align-content: center;
 	max-height: 300px;
 }
+.rr-flex-buttons {
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+	height: 50px;
+	margin: 10px;
+	padding-top: 30px;
+}
 .rr-event {
 	display: block;
 	border: 5px solid #454445;
@@ -590,7 +598,7 @@ a.icon:hover + .ch-info {
 	font-weight: bold;
 	text-decoration: none;
 	padding: 6px 10px 8px;
-	border: 1px solid #df9f00;
+	border: 2px solid #df9f00;
 	border-radius: 7px;
 	transition: all 0.3s;
 }
