@@ -450,8 +450,23 @@ a.icon:hover + .ch-info {
 	.title .byline {
 		font-size: 16px;
 	}
+	.join_mobile_container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+	}
 }
 
+.join_mobile_container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+	}
+	
 .rr-pic {
 	width: auto;
 	height: 100%;
