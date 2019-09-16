@@ -32,8 +32,8 @@
 
 	    $(window).on('load',function(){
 	    	let date = new Date();
-			let day = date.getDate();
-			let month = date.getMonth();
+			let day = date.getDate() + 1;
+			let month = date.getMonth() + 1;
 			let message;
 			if(day === 16 && month === 9){
 				message = "is Tomorrow!!";
