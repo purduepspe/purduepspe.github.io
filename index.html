@@ -25,6 +25,13 @@
 			display: none;
 		}
 	</style>
+
+	<!-- bootstrap modal for RR -->
+	<script type="text/javascript">
+	    $(window).on('load',function(){
+	        $('#rr').modal('show');
+	    });
+	</script>
 	
 </head>
 <body>
@@ -33,6 +40,18 @@
 		$("#header_include").load("header.html");
 	</script>
 
+	<div class="modal hide fade" id="rr">
+	  <div class="modal-header">
+	    <a class="close" data-dismiss="modal">×</a>
+	    <h3>Research Roundtable 2019</h3>
+	  </div>
+	  <div class="modal-body">
+	    <p>Research Roundtable 2019 is being hosted on Tuesday, Septembte 17th from 10 AM to 2 PM in the CoRec Black and Gold Gymnasiums</p>
+	  </div>
+	  <div class="modal-footer">
+	    <a data-dismiss="modal" href="#" class="btn">Close</a>
+	  </div>
+	</div>
 	
 	<div class="carousel_container">
 		<div class="container">
