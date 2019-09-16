@@ -29,7 +29,19 @@
 	<!-- bootstrap modal for RR -->
 	<script type="text/javascript">
 		let date = new Date();
-		console.log(date);
+		let day = date.getDate();
+		let month = date.getMonth();
+		let message;
+		if(day === 16 && month === 9){
+			message = "Tomorrow!!";
+		}
+		else if(day === 17 && month === 9){
+			message = "Today!!";
+		}
+		else {
+			message = "has passed :(";
+		}
+		$('#rr-message').innerText(message);
 
 	    $(window).on('load',function(){
 	    	setTimeout(() => {
@@ -89,7 +101,7 @@
 		  <div class="modal-dialog modal-dialog-centered" role="document">
 		    <div class="modal-content">
 		      <div class="modal-header">
-		        <h1 class="modal-title" id="exampleModalLongTitle">Research Roundtable 2019 is <span id="rr-message">Tomorrow!!</span></h1>
+		        <h1 style="text-align:center" class="modal-title" id="exampleModalLongTitle">Research Roundtable 2019 is <span id="rr-message"></span></h1>
 		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
 		          <span aria-hidden="true">&times;</span>
 		        </button>
