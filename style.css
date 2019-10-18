@@ -767,3 +767,16 @@ a.icon:hover + .ch-info {
 	padding-top: 5px;
 	padding-bottom: 5px;
 }
+
+/* FE Exam page */
+div > h1.fe-title {
+	font-size: 28px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	color: rgb(50,50,50);
+}
+div > h2.fe-subtitle {
+	font-size: 18px;
+	color: rgb(221, 162, 26);
+	font-weight: 300;
+}
