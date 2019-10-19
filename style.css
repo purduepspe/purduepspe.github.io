@@ -780,3 +780,13 @@ div > h2.fe-subtitle {
 	color: rgb(221, 162, 26);
 	font-weight: 300;
 }
+
+div.parallax-container > div.parallax > img {
+	background-size: 50px, 130px, auto;
+	background: center fixed;
+}
+
+.fe-content {
+	font-size: 16px;
+	font-family: "Open Sans", sans-serif;
+}
