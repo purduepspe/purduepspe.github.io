@@ -47,11 +47,13 @@
 		</div>
 		
 	</div>
+	<div id="sidenav"></div>
 	<div id="footer"></div>
 
 	<script>
 		$("#header_include").load("../header.html");
 		$("#footer").load("../footer.html");
+		($'#sidenav').load("../sidenav.html");
 		$(".rr-flyer-dayof").on("click touch", function(event) {
 			window.location = "Full Program.pdf";
 		});
