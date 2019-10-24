@@ -773,15 +773,15 @@ a.icon:hover + .ch-info {
 	width: 100%;
 }
 div > h1.fe-title {
-	font-size: 28px;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 400;
-	color: #333333;
-	text-shadow: 4px 1px 2px rgba(223,159,2,0.56);
+	font-size: 32px;
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: 800;
+	color: #222;
+	margin-top: 20px;
 }
 div > h2.fe-subtitle {
 	font-size: 18px;
-	color: rgb(221, 162, 26);
+	color: rgb(218, 155, 2);
 	font-weight: 300;
 }
 
@@ -789,9 +789,10 @@ div.parallax-container > div.parallax > img {
 	background-size: 50px, 130px, auto;
 	background: center fixed;
 }
-/*background div colors */
+
+
 div.gold {
-	background-image: linear-gradient(to right, #df9f02, black);
+	background-color: rgba(218, 155, 2, 1) !important;
 	width: 100%;
 	padding-right: 40px;
 	padding-left: 40px;
@@ -801,13 +802,12 @@ div.gold {
 }
 
 div.gold > p {
-
-	color: black;
+	color: #222;
 }
-/*#df9f02*/
+
 div.grey {
-	background-image: linear-gradient(to right, #df9f02, darkgrey);	width: 100%;
-	background-image: linear-gradient(to right, #df9f02, #df9f02, #df9f02, #df9f02, #000000);
+
+	background-color: #282828 !important;
 	padding-right: 40px;
 	padding-left: 40px;
 	padding-top: 5px;
@@ -815,10 +815,16 @@ div.grey {
 }
 
 div.grey > p {
-	color: white;
+	color: rgb(218, 159, 2);
+}
+div.grey > h1 {
+	color: #df9f02;
 }
 
 .fe-content {
-	font-size: 16px;
-	font-family: "Open Sans", sans-serif;
+	font-size: 17px;
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: 400;
+	padding-bottom: 5px;
+
 }
