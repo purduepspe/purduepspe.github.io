@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <head>
+	<!-- google fonts for FE fonts -->
+    <link async await href="https://fonts.googleapis.com/css?family=Libre+Franklin:400,800&display=swap" rel="stylesheet">
 	<title>Purdue Society of Professional Engineers</title>
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="../style.css">
@@ -19,6 +21,7 @@
 
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    
             
 
 	<script>
@@ -34,27 +37,63 @@
 </head>
 <body>
 	<div id="header_include"></div>
-	<div class="container main_text" style="margin-top: 20px;">
+	<div class="container main_text">
 		<div class="col-lg-12 col-md-12 col-sm-12 text">
 			<div class="title">
 				<h2>Fundamentals of Engineering Exam</h2>
 				<span class="byline">Purdue Society of Professional Engineers</span>
 			</div>
-
-			<br><br>
-
-			<h1>Under construction. Pardon our dust!!</h1>
 		</div>
-		<div id="sidenav"></div>
 	</div>
-	
+	<div class="fe-page">
+
+		<br><br>
+		<div id="intro">
+			<h1 class="fe-title">So you want to be a Professional Engineer...</h1>
+			<h2 class="fe-subtitle">The first step to becoming a professional engineer is taking the fundamentals of engineering exam.</h2>
+		</div>
+
+		<div class="gold">
+			<h1 class="fe-title">What is the Fundamentals of Engineering (FE) Exam?</h1>
+			<p class="fe-content">The Fundamentals of Engineering (FE) exam is generally the first step in the process of becoming a professional licensed engineer (P.E.). It is designed for recent graduates and students who are close to finishing an undergraduate engineering degree from an EAC/ABET-accredited program. (NCEES)</p>
+			<p class="fe-content">The second step to becoming a professional engineer is the Principles and Practice of Engineering (PE) exam. This exam can be taken after a minimum of four (4) years of engineering experience, occurring after the receipt of a BS in engineering from an accredited collegiate program. </p>
+		</div>
+		<div class="grey">
+			<h1 class="fe-title">Why should I take the FE Exam?</h1>
+			<p class="fe-content">blah blah blah</p>
+		</div>
+		<div class="gold">
+			<h1 class="fe-title">Where should I take the FE Exam?</h1>
+			<a class="fe-content"></a>
+		</div>
+		<div>
+			<h1 class="fe-title">What is the exam format?</h1>
+			<a class="fe-content"></a>
+		</div>
+		<div>
+			<h1 class="fe-title">How do I register for the FE Exam?</h1>
+			<a class="fe-content"></a>
+		</div>
+		<div>
+			<h1 class="fe-title">Why should I take the exam before graduation?</h1>
+			<a class="fe-content"></a>
+		</div>
+		<div>
+			<h1 class="fe-title">Resources</h1>
+			<a class="fe-content"></a>
+		</div>
+	</div>
 	<div id="footer"></div>
 
 	<script>
 		$("#header_include").load("../header.html");
 		$("#footer").load("../footer.html");
-		($'#sidenav').load("../sideNav.html");
-		
+		$(".rr-flyer-dayof").on("click touch", function(event) {
+			window.location = "Full Program.pdf";
+		});
+		$(".rr-student-reg").on("click touch", function(event) {
+			window.location = "https://purdue.ca1.qualtrics.com/jfe/form/SV_0ebK9lrMkDYYwC1";
+		});
 	</script>
 </body>
 </html>
