@@ -1,29 +1,17 @@
 <!DOCTYPE html>
 <head>
-	<!-- google fonts for FE fonts -->
-    <link async await href="https://fonts.googleapis.com/css?family=Libre+Franklin:400,800&display=swap" rel="stylesheet">
 	<title>Purdue Society of Professional Engineers</title>
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="../style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="shortcut icon" type="image/png" href="../images/fav.png"/>
-	<!-- logo prefetch -->
+    <link rel="shortcut icon" type="image/png" href="../images/fav.png"/>
+    <!-- logo prefetch -->
     <link rel="prefetch" href="./PSPE_Vertical.png">
     
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-45850137-2"></script>
-
-	<!-- materializecss.com -->
-	<!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    
-            
-
 	<script>
 		window.dataLayer = window.dataLayer || [];
 		function gtag(){dataLayer.push(arguments);}
@@ -33,21 +21,16 @@
 	</script>
 </head>
 <body>
-	<div id="header_include"></div>
-	<div class="container main_text">
-		<div class="col-lg-12 col-md-12 col-sm-12 text">
-			<div class="title" style="margin-top: 60px">
-				<h2>Fundamentals of Engineering Exam</h2>
-				<span class="byline">Purdue Society of Professional Engineers</span>
-			</div>
-			<br><br>
-			<div id="intro">
-				<h1 class="fe-title" style="text-align: center; font-size: 50px;">This page is under construction</h1>
-				<h2 class="fe-subtitle"></h2>
-			</div>
-		</div>
 
-		<div class="fe-page">
+	<div id="header_include"></div>
+
+	<div class="container main_text">
+		<div class="col-lg-9 col-md-9 col-sm-12 text">
+			<div class="title">
+				<h2>Fundamentals of Engineering Exam</h2>
+				<span class="byline">Information Guide</span>
+			</div>
+			<div class="fe-page">
 			<div id="intro">
 				<h1 class="fe-title">So you want to be a Professional Engineer...</h1>
 				<h2 class="fe-subtitle">The first step to becoming a professional engineer is taking the fundamentals of engineering exam.</h2>
@@ -83,18 +66,16 @@
 				<a class="fe-content"></a>
 			</div>
 		</div>
+		<div id="sideNav"></div>
 	</div>
+
 	<div id="footer"></div>
 
 	<script>
 		$("#header_include").load("../header.html");
+		$("#sideNav").load("../sideNav.html");
 		$("#footer").load("../footer.html");
-		$(".rr-flyer-dayof").on("click touch", (event) => {
-			window.location = "Full Program.pdf";
-		});
-		$(".rr-student-reg").on("click touch", (event) => {
-			window.location = "https://purdue.ca1.qualtrics.com/jfe/form/SV_0ebK9lrMkDYYwC1";
-		});
 	</script>
+
 </body>
 </html>
