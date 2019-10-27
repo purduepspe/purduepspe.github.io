@@ -815,7 +815,7 @@ div.grey {
 }
 
 div.grey > p {
-	color: rgb(218, 159, 2);
+	color: rgba(218, 159, 2, .7);
 }
 div.grey > h1 {
 	color: #df9f02;
