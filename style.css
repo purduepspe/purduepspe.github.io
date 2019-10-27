@@ -826,5 +826,8 @@ div.grey > h1 {
 	font-family: 'Libre Franklin', sans-serif;
 	font-weight: 400;
 	padding-bottom: 5px;
+}
 
+#intro {
+	margin-left: 30px;
 }
