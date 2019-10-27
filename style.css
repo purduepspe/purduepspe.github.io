@@ -770,7 +770,7 @@ a.icon:hover + .ch-info {
 
 /* FE Exam page */
 .fe-page {
-	width: 100%;
+	min-width: 100%;
 }
 div > h1.fe-title {
 	font-size: 32px;
@@ -793,7 +793,7 @@ div.parallax-container > div.parallax > img {
 
 div.gold {
 	background-color: rgba(218, 155, 2, .7) !important;
-	width: 100%;
+	min-width: 100%;
 	padding-right: 40px;
 	padding-left: 40px;
 	padding-top: 5px;
@@ -806,7 +806,7 @@ div.gold > p {
 }
 
 div.grey {
-
+	min-width: 100%;
 	background-color: #282828 !important;
 	padding-right: 40px;
 	padding-left: 40px;
