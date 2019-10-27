@@ -143,6 +143,25 @@ h3 {
 .titleFE {
 	margin-bottom: 5px;
 }
+.titleFE h2 {
+	font-weight: 400;
+	font-size: 40px;
+	color: #323232;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.titleFE .byline {
+	display: block;
+	font-size: 20px;
+	color: #df9f00;
+	margin-top: 15px;
+}
+.titleFE .bylinegold {
+	display: block;
+	font-size: 20px;
+	color: #df9f00;
+	margin-top: 15px;
+}
 .title h2 {
 	font-weight: 400;
 	font-size: 40px;
