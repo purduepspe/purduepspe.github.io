@@ -37,12 +37,12 @@ h3 {
 	border-bottom: none;
 	font-weight: bold;
 	color: black;
-}
-#header_include {
-	margin-bottom:0px;
 	-webkit-box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.75);
 	box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.75);
+}
+#header_include {
+	margin-bottom:0px;
 }
 
 .navbar-toggle {
