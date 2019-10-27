@@ -781,6 +781,7 @@ div > h1.fe-title {
 	font-weight: 800;
 	color: #222;
 	margin-top: 20px;
+	margin-bottom: 10px;
 }
 div > h2.fe-subtitle {
 	font-size: 18px;
