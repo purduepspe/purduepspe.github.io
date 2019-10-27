@@ -807,6 +807,16 @@ div > h1.fe-title {
 	margin-top: 20px;
 	margin-bottom: 10px;
 }
+
+div > h1.fe-intro-title {
+	font-size: 32px;
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: 800;
+	color: #333;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
 div > h2.fe-subtitle {
 	font-size: 18px;
 	color: var(--fe-gold-color);
