@@ -772,6 +772,10 @@ a.icon:hover + .ch-info {
 }
 
 /* FE Exam page */
+:root {
+	--fe-gold-color: #F6C233;
+}
+
 .fe-page {
 	min-width: 100%;
 }
@@ -785,7 +789,7 @@ div > h1.fe-title {
 }
 div > h2.fe-subtitle {
 	font-size: 18px;
-	color: rgb(218, 155, 2);
+	color: var(--fe-gold-color);
 	font-weight: 300;
 }
 
@@ -796,7 +800,7 @@ div.parallax-container > div.parallax > img {
 
 
 div.gold {
-	background-color: rgba(218, 155, 2, 1) !important;
+	background-color: var(--fe-gold-color) !important;
 	min-width: 100%;
 	padding-right: 40px;
 	padding-left: 40px;
@@ -819,10 +823,10 @@ div.grey {
 }
 
 div.grey > p {
-	color: rgba(218, 159, 2, 1);
+	color: var(--fe-gold-color);
 }
 div.grey > h1 {
-	color: rgba(218,159,2, 1);
+	color: var(--fe-gold-color);
 }
 
 .fe-content {
