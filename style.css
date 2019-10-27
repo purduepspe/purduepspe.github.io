@@ -815,10 +815,10 @@ div.grey {
 }
 
 div.grey > p {
-	color: rgba(218, 159, 2, .7);
+	color: rgba(218, 159, 2, 1);
 }
 div.grey > h1 {
-	color: rgba(218,159,2,.7);
+	color: rgba(218,159,2, 1);
 }
 
 .fe-content {
