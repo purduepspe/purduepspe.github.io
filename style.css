@@ -40,6 +40,9 @@ h3 {
 }
 #header_include {
 	margin-bottom:0px;
+	-webkit-box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.75);
 }
 
 .navbar-toggle {
@@ -792,7 +795,7 @@ div.parallax-container > div.parallax > img {
 
 
 div.gold {
-	background-color: rgba(218, 155, 2, .7) !important;
+	background-color: rgba(218, 155, 2, 1) !important;
 	min-width: 100%;
 	padding-right: 40px;
 	padding-left: 40px;
