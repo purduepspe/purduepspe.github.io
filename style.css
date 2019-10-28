@@ -451,7 +451,7 @@ a.icon:hover + .ch-info {
 	}
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 1200px){
 	.carousel_container {
 		margin-top: 50px;
 	}
