@@ -865,6 +865,35 @@ div.grey > h1 {
 	font-weight: 400;
 	padding-bottom: 5px;
 }
+div.grey > ul.fe-link{
+	font-size: 17px;
+	color: var(--fe-gold-color) !important;
+	font-family: "Libre Franklin", sans-serif;
+	font-weight: 500;
+	padding-bottom: 5px;
+	padding-left: 50px;
+	text-decoration: none;
+}
+
+div.gold > ul.fe-link{
+	font-size: 17px;
+	font-family: "Libre Franklin", sans-serif;
+	font-weight: 700;
+	padding-bottom: 5px;
+	padding-left: 50px;
+	text-decoration: none;
+	color: var(--fe-grey-color) !important;
+}
+
+div.gold > ul.fe-link li a{
+	
+}
+
+div.grey > ul.fe-link li a{
+	ul.fe-link > li {
+		color: var(--fe-gold-color) !important;
+	}
+}
 
 #intro {
 	margin-left: 30px;
