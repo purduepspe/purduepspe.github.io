@@ -898,3 +898,31 @@ div.grey > ul.fe-link li a{
 #intro {
 	margin-left: 30px;
 }
+
+
+
+/*OE*/
+
+.button-div-oe {
+	display: flex;
+	justify-content: center;
+}
+
+.button-oe button {
+	color: #df9f00;
+	font-size: 15px;
+	background: transparent;
+	box-shadow: none;
+	border: none;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 6px 10px 8px;
+	border: 2px solid #df9f00;
+	border-radius: 7px;
+	transition: all 0.3s;
+}
+.button-oe button:hover {
+	color: #fff;
+	background: #df9f00;
+	transition: all 0.3s;
+}
