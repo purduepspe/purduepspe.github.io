@@ -793,7 +793,8 @@ a.icon:hover + .ch-info {
 
 /* FE Exam page */
 :root {
-	--fe-gold-color: #df9f00;
+	--fe-gold-color: #df9f00 !important;
+	--fe-grey-color: #282828 !important;
 }
 
 .fe-page {
@@ -845,7 +846,7 @@ div.gold > p {
 
 div.grey {
 	min-width: 100%;
-	background-color: #282828 !important;
+	background-color: var(--fe-grey-color);
 	padding-right: 40px;
 	padding-left: 40px;
 	padding-top: 5px;
@@ -865,36 +866,84 @@ div.grey > h1 {
 	font-weight: 400;
 	padding-bottom: 5px;
 }
-div.grey > ul.fe-link{
+/*-------------------------------------------*/
+div.gold > ul.fe-content {
+	color: var(--fe-grey-color);
 	font-size: 17px;
-	color: var(--fe-gold-color) !important;
 	font-family: "Libre Franklin", sans-serif;
-	font-weight: 500;
-	padding-bottom: 5px;
-	padding-left: 50px;
-	text-decoration: none;
+	font-weight: 400;
 }
-
-div.gold > ul.fe-link{
+div.gold > ul.fe-content > li > a{
 	font-size: 17px;
 	font-family: "Libre Franklin", sans-serif;
 	font-weight: 700;
-	padding-bottom: 5px;
-	padding-left: 50px;
 	text-decoration: none;
 	color: var(--fe-grey-color) !important;
 }
 
-div.gold > ul.fe-link li a{
-	
+div.gold > ul.fe-content > li{
+	font-size: 17px;
+	font-family: "Libre Franklin", sans-serif;
+	font-weight: 400;
+	text-decoration: none;
+	color: var(--fe-grey-color) !important;
 }
 
-div.grey > ul.fe-link li a{
-	ul.fe-link > li {
-		color: var(--fe-gold-color) !important;
-	}
+div.grey > ul.fe-content {
+	color: var(--fe-gold-color);
+	font-size: 17px;
+	font-family: "Libre Franklin", sans-serif;
+	font-weight: 400;
 }
 
+div.grey > ul.fe-content > li > a {
+	font-size: 17px;
+	font-family: "Libre Franklin", sans-serif;
+	font-weight: 700;
+	text-decoration: none;
+	color: var(--fe-gold-color) !important;
+}
+
+div.grey > p.fe-content > a {
+	font-size: 17px;
+	font-family: "Libre Franklin", sans-serif;
+	font-weight: 400;
+	text-decoration: underline;
+	color: var(--fe-gold-color) !important;
+}
+/*------------------------------------------------*/
+div.gold > ol.fe-content {
+	color: var(--fe-grey-color);
+	font-size: 17px;
+	font-family: "Libre Franklin", sans-serif;
+	font-weight: 400;
+}
+div.gold > ol.fe-content > li > a {
+	color: var(--fe-grey-color);
+	font-size: 17px;
+	font-family: "Libre Franklin", sans-serif;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+.fe-list-header {
+	color: var(--fe-grey-color);
+	font-size: 17px;
+	font-family: "Libre Franklin", sans-serif;
+	text-decoration: none;
+	font-weight: 400;
+	margin-bottom: 5px;
+}
+
+
+.fe-video-frame {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
 #intro {
 	margin-left: 30px;
 }
