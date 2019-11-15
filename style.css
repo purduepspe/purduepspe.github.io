@@ -23,7 +23,7 @@ h3 {
 /*sidebar*/
 .small {
 	font-size: 12px;
-	
+
 
 }
 .sidebar-link {
@@ -70,6 +70,7 @@ h3 {
 .navcolor a:hover {
 	color: white;
 	background-color: #df9f00 !important;
+	transition: 1s linear;
 }
 
 .navbar-custom .navbar-brand:focus {
