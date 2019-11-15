@@ -20,6 +20,16 @@ h3 {
 	margin-top: 15px;
 }
 
+/*sidebar*/
+.small {
+	font-size: 8px;
+
+}
+.sidebar-link {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
 .main_text ul {
 	list-style: none;
 	padding-left: 0;
