@@ -812,6 +812,9 @@ a.icon:hover + .ch-info {
 .fe-page {
 	min-width: 100%;
 }
+.fe-page-background {
+	background-color: #f6f6f6;
+}
 div > h1.fe-title {
 	font-size: 28px;
 	font-family: 'Libre Franklin', sans-serif;
@@ -845,8 +848,8 @@ div.parallax-container > div.parallax > img {
 div.gold {
 	background-color: var(--fe-gold-color) !important;
 	min-width: 100%;
-	padding-right: 40px;
-	padding-left: 40px;
+	padding-right: 10%;
+	padding-left: 10%;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	
@@ -859,8 +862,8 @@ div.gold > p {
 div.grey {
 	min-width: 100%;
 	background-color: var(--fe-grey-color);
-	padding-right: 40px;
-	padding-left: 40px;
+	padding-right: 10%;
+	padding-left: 10%;
 	padding-top: 5px;
 	padding-bottom: 5px;
 }
