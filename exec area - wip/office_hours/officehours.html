@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<script src="./jquery/jquery.js"></script>
+		<title>Office Hours Submission</title>
+		<style>
+			.form-format {
+				display: flex;
+				flex-direction: column;
+				justify-content: flex-start;
+				align-items: flex-start;
+
+				padding-left: 25px;
+			}
+
+			.form-label {
+				margin-top: 5px;
+				margin-bottom: 5px;
+			}
+		</style>
+
+		<script>
+			function togglePassword() {
+				let password_field = document.getElementById("password");
+				if (password_field.type === "password") {
+					password_field.type = "text";
+				}
+				else {
+					password_field.type = "password";
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<h1>Office Hours Submission Form</h1>
+		<form class="form-format">
+			<label class="form-label" for="first_name">
+				First Name:
+				<input class="text_input" name="first_name" id="first_name" type="text">
+			</label>
+			<label class="form-label" for="last_name">
+				Last Name:
+				<input class="text_input" name="last_name" id="last_name" type="text">
+			</label>
+			<label class="form-label" for="email">
+				Purdue Email:
+				<input class="text_input" name="email" id="email" type="text">
+			</label>
+			<label class="form-label" for="password">
+				Password:
+				<input class="text_input" name="password" id="password" type="password"><button onclick="togglePassword()" id="toggle-password" type="button" class="show-password">Show/Hide Password</button>
+			</label>
+			<button id="submit" class="submit-button" type="button">Submit</button>
+		</form>
+
+	</body>
+</html>
