@@ -18,6 +18,16 @@
 				margin-top: 5px;
 				margin-bottom: 5px;
 			}
+			.show-password {
+				margin-left: 25px;
+			}
+			.text_input {
+				margin-left: 5px;
+			}
+
+			#submit {
+				margin: 10px;
+			}
 		</style>
 
 		<script>
@@ -29,6 +39,16 @@
 				else {
 					password_field.type = "password";
 				}
+			}
+		</script>
+
+		<script>
+			function validation() {
+				let first_name = document.getElementById("first_name");
+				let last_name = document.getElementById("last_name");
+				let email = document.getElementById("email");
+				let password = document.getElementById("password");
+
 			}
 		</script>
 	</head>
@@ -51,7 +71,7 @@
 				Password:
 				<input class="text_input" name="password" id="password" type="password"><button onclick="togglePassword()" id="toggle-password" type="button" class="show-password">Show/Hide Password</button>
 			</label>
-			<button id="submit" class="submit-button" type="button">Submit</button>
+			<button id="submit" onclick="validation()"class="submit-button" type="button">Submit</button>
 		</form>
 
 	</body>
