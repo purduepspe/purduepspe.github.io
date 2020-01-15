@@ -1020,6 +1020,7 @@ h1.jumbo-header {
 }
 
 .hr-color {
-	color: #333;
+	color: #333 !important;
 	font-size: 1px;
+	
 }
