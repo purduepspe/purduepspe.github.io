@@ -1018,3 +1018,8 @@ h1.jumbo-header {
 	background-color: #063e60;
 	color: white;
 }
+
+.hr-color {
+	color: #333;
+	font-size: 1px;
+}
