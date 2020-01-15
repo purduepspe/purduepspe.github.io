@@ -995,8 +995,8 @@ div.gold > ol.fe-content > li > a {
 
 
 
-.jumbo-header {
-	font-size: 43px;
+h1.jumbo-header {
+	font-size: 43px !important;
 	color: #333;
 
 }
