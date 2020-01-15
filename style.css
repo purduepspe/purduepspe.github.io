@@ -1019,9 +1019,7 @@ h1.jumbo-header {
 	color: white;
 }
 
-.hr-color {
-	color: #333 !important;
-	font-size: 1px;
-	background-color: #333;
+.jumbotron > hr {
+	border-top-color: #333;
 
 }
