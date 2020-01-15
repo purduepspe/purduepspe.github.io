@@ -990,3 +990,22 @@ div.gold > ol.fe-content > li > a {
 	background: #df9f00;
 	transition: all 0.3s;
 }
+
+
+
+.jumbo-background-pspe {
+	background-color: #ffe9b3;
+}
+
+.blue-btn {
+	background-color: #0A6EAC;
+	color: white;
+}
+.blue-btn:hover {
+	background-color: #085c91;
+	color: white;
+}
+.blue-btn:click {
+	background-color: #063e60;
+	color: white;
+}
