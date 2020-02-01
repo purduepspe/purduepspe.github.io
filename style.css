@@ -464,12 +464,7 @@ a.icon:hover + .ch-info {
 }
 
 @media screen and (max-width: 767px){
-	.rr-flex-buttons {
-		display: flex;
-		flex-direction: column;
-		justify-content: flex-start;
-		align-items: space-between;
-	}
+	
 	.carousel_container {
 		margin-top: 50px;
 	}
@@ -504,6 +499,35 @@ a.icon:hover + .ch-info {
 	}
 }
 
+h1.rr-jumbo-header {
+	font-size: 40px;
+	color: var(--fe-gold-color);
+}
+
+h3.rr-jumbo-header {
+	font-size: 25px;
+	color: var(--fe-gold-color);
+}
+.rr-jumbo-color {
+	background-color: #F0F0F0;
+}
+.event-details {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	font-size: 25px;
+	font-weight: bold;
+	min-width: 100%;
+}
+
+.b-g {
+	background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 23%, rgba(223,159,0,1) 56%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
 .rr-pic {
 	width: auto;
 	height: 100%;
@@ -517,13 +541,41 @@ a.icon:hover + .ch-info {
 	align-content: center;
 	max-height: 300px;
 }
+
+.rr-signup-buttons {
+	min-width: 100%;
+	min-height: 25px;
+	margin-top: 25px;
+	font-size: 25px;
+}
+
+.rr-button-link > button{
+	color: #df9f00;
+	font-size: 15px;
+	background: transparent;
+	box-shadow: none;
+	border: none;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 6px 10px 8px;
+	border: 2px solid #df9f00;
+	border-radius: 7px;
+	transition: all 0.3s;
+}
+
+.rr-button-link {
+	margin: 10px;
+}
+.rr-button-link > button:hover {
+	background-color: #df9f00;
+	color: white;
+
+}
 .rr-flex-buttons {
 	display: flex;
-	justify-content: space-around;
+	justify-content: flex-start;
 	align-items: flex-start;
-	height: 50px;
-	margin: 10px;
-	padding-top: 30px;
+	
 }
 .rr-event {
 	display: block;
