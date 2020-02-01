@@ -464,6 +464,12 @@ a.icon:hover + .ch-info {
 }
 
 @media screen and (max-width: 767px){
+	.rr-flex-buttons {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: space-between;
+	}
 	.carousel_container {
 		margin-top: 50px;
 	}
