@@ -498,10 +498,22 @@ a.icon:hover + .ch-info {
 		margin-top: 20px;
 	}
 }
-.rr-carousel {
+div.rr-carousel {
 	width: 100%;
-	min-height: 450px;
+	max-height: 450px !important;
+	margin-bottom: 15px;
 }
+
+
+div.max-450 {
+	max-height: 550px !important;
+	background-size: contain;
+}
+div.item {
+	height: auto;
+	width: 100%;
+}
+
 h1.rr-jumbo-header {
 	font-size: 40px;
 	color: var(--fe-gold-color);
