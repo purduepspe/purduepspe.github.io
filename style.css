@@ -485,7 +485,8 @@ a.icon:hover + .ch-info {
 
 @media screen and (max-width: 767px){
 	header {
-		min-width: 100%;
+		width: 100%;
+		min-width: 100% !important;
 	}
 	#header-flex {
 		display: flex;
@@ -493,7 +494,7 @@ a.icon:hover + .ch-info {
 		justify-content: flex-start;
 		align-items: flex-start;
 		width: 100%;
-		min-width: 100%;
+		min-width: 100% !important;
 	}
 	.navbar-header {
 		width: 100%;
