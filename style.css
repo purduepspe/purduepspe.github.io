@@ -492,9 +492,11 @@ a.icon:hover + .ch-info {
 		flex-direction: column;
 		justify-content: flex-start;
 		align-items: flex-start;
+		width: 100%;
 		min-width: 100%;
 	}
 	.navbar-header {
+		width: 100%;
 		min-width: 100%;
 	}
 	.carousel_container {
