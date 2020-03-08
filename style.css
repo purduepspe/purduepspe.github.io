@@ -57,6 +57,7 @@ h3 {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
+
 }
 
 #header-flex {
@@ -488,6 +489,9 @@ a.icon:hover + .ch-info {
 		flex-direction: column;
 		justify-content: flex-start;
 		align-items: flex-start;
+	}
+	.navbar-header {
+		min-width: 100%;
 	}
 	.carousel_container {
 		margin-top: 50px;
