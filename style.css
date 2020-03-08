@@ -49,6 +49,14 @@ h3 {
 	font-weight: bold;
 	color: black;
 	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+}
+
+#header-flex {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
 }
 #header_include {
 	margin-bottom:0px;
