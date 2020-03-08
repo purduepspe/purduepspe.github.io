@@ -55,7 +55,7 @@ h3 {
 #header-flex {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: flex-start;
 	align-items: center;
 }
 #header_include {
@@ -476,7 +476,12 @@ a.icon:hover + .ch-info {
 }
 
 @media screen and (max-width: 767px){
-	
+	#header-flex {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: space-between;
+	}
 	.carousel_container {
 		margin-top: 50px;
 	}
