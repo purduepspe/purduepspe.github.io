@@ -59,6 +59,10 @@ h3 {
 	padding: 14px 10px;
 }
 
+.nav li {
+	background-color: #df9f00;
+}
+
 .navcolor a {
 	text-decoration: none;
 }
