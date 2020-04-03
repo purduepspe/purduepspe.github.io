@@ -43,6 +43,14 @@
       font-smooth: 5em;
     }
 
+    .dropdown-item:hover {
+    	background-color: red;
+    	cursor: pointer;
+    	color: white;
+    	transition: color .2s ease-in-out;
+    	transition: background-color: .2s ease-in-out;
+    }
+
     
     
   </style>
@@ -63,8 +71,6 @@
         <div class="dropdown-menu dropdown-menu-gold" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="../history">History</a>
           <a class="dropdown-item" href="../membership">Membership</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
         </div>
       </li>
       <li class="nav-item dropdown">
@@ -72,11 +78,18 @@
           Events
         </a>
         <div class="dropdown-menu dropdown-menu-gold" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Research Roundtable</a>
-          <a class="dropdown-item" href="#">FE Exam Prep Sessions</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
+          <a class="dropdown-item" href="../history">Research Roundtable</a>
+          <a class="dropdown-item" href="../membership">FE Exam Prep</a>
+          <a class="dropdown-item" href="../membership">Rube Goldberg</a>
+          <a class="dropdown-item" href="../membership">Order of the Engineer</a>
+          
         </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Sponsors
+        </a>
+       
       </li>
 
 
