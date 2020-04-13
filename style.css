@@ -1,3 +1,17 @@
+h2.subheading {
+	font-size: 29px;
+	font-weight: 400;
+	font-family: "Open Sans", sans-serif;
+
+	color: rgb(50,50,50);
+
+}
+
+p.oe-body {
+	font-size: 16px;
+
+}
+
 body {
 	margin: 0px;
 	padding: 0px;
