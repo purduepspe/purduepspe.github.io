@@ -796,7 +796,14 @@ h3.rr-jumbo-header {
 	transition: all 0.3s;
 }
 
-
+.oe-flex-buttons {
+	height: 75px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
 
 .email1 {
 	background-color: rgb(39, 174, 96);
@@ -1204,4 +1211,20 @@ h3.event-title {
 	align-items: center;
 
 	
+}
+
+
+div.oe-date > h5{
+	font-size: 18px !important;
+
+	color: rgb(88, 88, 88);
+	padding-left: 20px;
+
+	/* display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start; */
+
+	width: 100%;
+
 }
