@@ -1,0 +1,129 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    min-height: 100vh;
+    width: 100%;
+    padding: 0px;
+    margin:0px;
+    
+
+}
+
+.login-container { 
+    margin-top: 100px;
+    margin-right: 100px;
+    height: 500px;
+    width: 450px;
+    background-color: #cfb991;
+    border-radius: 12px;
+    -webkit-box-shadow: 0px 10px 12px 0px rgba(161,161,161,1);
+    -moz-box-shadow: 0px 10px 12px 0px rgba(161,161,161,1);
+    box-shadow: 0px 10px 12px 0px rgba(161,161,161,1);
+}
+
+.login-heading {
+    font-size: 45px;
+    text-align: center;
+    margin-top: 30px;
+    color: #403E3E;
+    font-family: sans-serif;
+}
+
+svg.svg-style {
+    margin-top: 100px;
+}
+
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.sign-in-input {
+    height: 40px;
+    border: 1px solid #CBCBCB;
+    border-radius: 5px;
+    padding: 5px;
+    width: 220px;
+    font-size: 16px;
+}
+.sign-in-input:focus {
+    outline: none;
+}
+.input-group {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+label {
+    font-family: sans-serif;
+    padding: 5px;
+    font-size: 18px;
+    color: #403E3E;
+}
+button {
+    background-color: #4E4E4E;
+    border: 0px;
+    color: white;
+    border-radius: 5px;
+    height: 35px;
+    width: 80px;
+    margin-top: 10px;
+    -webkit-box-shadow: 0px 3px 5px 1px rgba(84,84,84,1);
+    -moz-box-shadow: 0px 3px 5px 1px rgba(84,84,84,1);
+    box-shadow: 0px 3px 5px 1px rgba(84,84,84,1);
+}
+button:hover {
+    cursor:pointer;
+}
+
+
+@media only screen and (max-width: 1300px) {
+    .flex-container {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 0px;
+        width: 100%;
+
+    }
+    .svg-style {
+        align-self: center;
+        margin-top: 50px;
+        width: 60%;
+        height: auto;
+
+
+    }
+    .login-container {
+        margin-right: 0px;
+    }
+}
+
+@media only screen and (max-width: 700px)  {
+    .login-container {
+        height: 500px;
+        width: 400px;
+        margin-right: 0px;
+        margin-top: 20px;
+    }
+    .flex-container {
+        height: 100%;
+        width: 100%;
+    }
+    .svg-style {
+        width: 100%;
+        height: auto;
+        align-self: center;
+        margin-right: 0px;
+        padding-right: 0px;
+    }
+    
+    
+}
