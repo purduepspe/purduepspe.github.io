@@ -1,15 +1,16 @@
 import React, { Component } from 'react'
 import Navbar from '../components/Navbar/Navbar';
 
-export class AnnualEvents extends Component {
+export class Sponsors extends Component {
     render() {
         return (
+            
             <div>
                 <Navbar/>
-                Annual Events
+                Sponsors Page
             </div>
         )
     }
 }
 
-export default AnnualEvents
+export default Sponsors
