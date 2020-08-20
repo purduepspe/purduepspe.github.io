@@ -52,7 +52,7 @@ h3 {
 /* Begin Navbar Section */
 
 #header {
- 	background-color: #df9f00;
+ 	background-color: #CFB991;
 	position: fixed;
 	top: 0px;
 	left: 0;
@@ -90,7 +90,7 @@ h3 {
 }
 
 .nav li {
-	background-color: #df9f00;
+	background-color: #CFB991;
 }
 
 .navcolor a {
@@ -103,7 +103,7 @@ h3 {
 
 .navcolor a:hover {
 	color: white;
-	background-color: #df9f00 !important;
+	background-color: #CFB991 !important;
 	transition: color .2s ease-in-out;
 }
 
@@ -199,13 +199,13 @@ h3 {
 .titleFE .byline {
 	display: block;
 	font-size: 20px;
-	color: #df9f00;
+	color: #CFB991;
 	margin-top: 15px;
 }
 .titleFE .bylinegold {
 	display: block;
 	font-size: 20px;
-	color: #df9f00;
+	color: #CFB991;
 	margin-top: 15px;
 }
 .title h2 {
@@ -218,13 +218,13 @@ h3 {
 .title .byline {
 	display: block;
 	font-size: 20px;
-	color: #df9f00;
+	color: #CFB991;
 	margin-top: 15px;
 }
 .title .bylinegold {
 	display: block;
 	font-size: 20px;
-	color: #df9f00;
+	color: #CFB991;
 	margin-top: 15px;
 }
 .text {
@@ -614,7 +614,7 @@ h3.rr-jumbo-header {
 }
 
 .rr-button-link > button{
-	color: #df9f00;
+	color: #CFB991;
 	font-size: 15px;
 	background: transparent;
 	box-shadow: none;
@@ -622,7 +622,7 @@ h3.rr-jumbo-header {
 	font-weight: bold;
 	text-decoration: none;
 	padding: 6px 10px 8px;
-	border: 2px solid #df9f00;
+	border: 2px solid #CFB991;
 	border-radius: 7px;
 	transition: all 0.3s;
 }
@@ -631,7 +631,7 @@ h3.rr-jumbo-header {
 	margin: 10px;
 }
 .rr-button-link > button:hover {
-	background-color: #df9f00;
+	background-color: #CFB991;
 	color: white;
 
 }
@@ -758,7 +758,7 @@ h3.rr-jumbo-header {
 	text-align: center;
 }
 .button_half button {
-	color: #df9f00;
+	color: #CFB991;
 	font-size: 15px;
 	background: transparent;
 	box-shadow: none;
@@ -766,18 +766,18 @@ h3.rr-jumbo-header {
 	font-weight: bold;
 	text-decoration: none;
 	padding: 6px 10px 8px;
-	border: 2px solid #df9f00;
+	border: 2px solid #CFB991;
 	border-radius: 7px;
 	transition: all 0.3s;
 }
 .button_half button:hover {
 	color: #fff;
-	background: #df9f00;
+	background: #CFB991;
 	transition: all 0.3s;
 }
 
 .button-donate{
-	color: #df9f00;
+	color: #CFB991;
 	font-size: 15px;
 	background: transparent;
 	box-shadow: none;
@@ -785,14 +785,14 @@ h3.rr-jumbo-header {
 	font-weight: bold;
 	text-decoration: none;
 	padding: 6px 10px 8px;
-	border: 1px solid #df9f00;
+	border: 1px solid #CFB991;
 	border-radius: 7px;
 	transition: all 0.3s;
 }
 
 .button-donate:hover {
 	color: #fff;
-	background: #df9f00;
+	background: #CFB991;
 	transition: all 0.3s;
 }
 
@@ -934,7 +934,7 @@ a.icon:hover + .ch-info {
 
 /* FE Exam page */
 :root {
-	--fe-gold-color: #df9f00 !important;
+	--fe-gold-color: #CFB991 !important;
 	--fe-grey-color: #282828 !important;
 }
 
@@ -1102,7 +1102,7 @@ div.gold > ol.fe-content > li > a {
 }
 
 .button-oe button {
-	color: #df9f00;
+	color: #CFB991;
 	font-size: 15px;
 	background: transparent;
 	box-shadow: none;
@@ -1110,13 +1110,13 @@ div.gold > ol.fe-content > li > a {
 	font-weight: bold;
 	text-decoration: none;
 	padding: 6px 10px 8px;
-	border: 2px solid #df9f00;
+	border: 2px solid #CFB991;
 	border-radius: 7px;
 	transition: all 0.3s;
 }
 .button-oe button:hover {
 	color: #fff;
-	background: #df9f00;
+	background: #CFB991;
 	transition: all 0.3s;
 }
 
