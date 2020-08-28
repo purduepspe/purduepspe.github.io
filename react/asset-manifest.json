@@ -17,10 +17,10 @@
     "static/media/fav.png": "/react/static/media/fav.ab37371b.png"
   },
   "entrypoints": [
-    "react/static/js/runtime-main.8b2bd217.js",
-    "react/static/css/2.dabebd4b.chunk.css",
-    "react/static/js/2.66b0619f.chunk.js",
-    "react/static/css/main.59d67395.chunk.css",
-    "react/static/js/main.307ae163.chunk.js"
+    "static/js/runtime-main.8b2bd217.js",
+    "static/css/2.dabebd4b.chunk.css",
+    "static/js/2.66b0619f.chunk.js",
+    "static/css/main.59d67395.chunk.css",
+    "static/js/main.307ae163.chunk.js"
   ]
 }
