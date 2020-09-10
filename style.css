@@ -1241,3 +1241,18 @@ div.oe-date > h5{
 	width: 100%;
 
 }
+
+
+.footer-icons-flex {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.footer-icon {
+	padding: 10px;
+}
+
+
