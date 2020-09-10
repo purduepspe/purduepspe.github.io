@@ -396,6 +396,13 @@ h3 {
 	color: #55ACEE;
 	background-color: #fff;
 }
+.instagram1 {
+	background-color: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);
+}
+.instagram2 {
+	background-color: white;
+	color: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);;
+}
 .trigger {
 	position: relative;
 	height: 50px;
