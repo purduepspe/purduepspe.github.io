@@ -350,7 +350,7 @@ h3 {
   background: #007bb5;
 }
 .fa-instagram {
-	background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);
+	background: linear-gradient(45deg, #FEDA77, #F58529, #DD2A7B, #8134AF, #515BD4);
 }
 
 #copyright p {
@@ -400,11 +400,12 @@ h3 {
 	background-color: #fff;
 }
 .instagram1 {
-	background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);
+	background: linear-gradient(45deg, #FEDA77, #F58529, #DD2A7B, #8134AF, #515BD4);
 }
 .instagram2 {
+	color: linear-gradient(45deg, #FEDA77, #F58529, #DD2A7B, #8134AF, #515BD4);
 	background-color: white;
-	color: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);
+	
 }
 .trigger {
 	position: relative;
