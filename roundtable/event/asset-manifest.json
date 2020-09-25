@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/roundtable/event/static/css/main.d6487686.chunk.css",
-    "main.js": "/roundtable/event/static/js/main.0821515d.chunk.js",
-    "main.js.map": "/roundtable/event/static/js/main.0821515d.chunk.js.map",
+    "main.js": "/roundtable/event/static/js/main.419b14e1.chunk.js",
+    "main.js.map": "/roundtable/event/static/js/main.419b14e1.chunk.js.map",
     "runtime-main.js": "/roundtable/event/static/js/runtime-main.7fbdf1b5.js",
     "runtime-main.js.map": "/roundtable/event/static/js/runtime-main.7fbdf1b5.js.map",
     "static/css/2.1688f78b.chunk.css": "/roundtable/event/static/css/2.1688f78b.chunk.css",
     "static/js/2.1a727de5.chunk.js": "/roundtable/event/static/js/2.1a727de5.chunk.js",
     "static/js/2.1a727de5.chunk.js.map": "/roundtable/event/static/js/2.1a727de5.chunk.js.map",
     "index.html": "/roundtable/event/index.html",
-    "precache-manifest.f393751a7de8ffdd88a95df1e7905b9f.js": "/roundtable/event/precache-manifest.f393751a7de8ffdd88a95df1e7905b9f.js",
+    "precache-manifest.f40f90dfd594ebbebc0fe589d731c311.js": "/roundtable/event/precache-manifest.f40f90dfd594ebbebc0fe589d731c311.js",
     "service-worker.js": "/roundtable/event/service-worker.js",
     "static/css/2.1688f78b.chunk.css.map": "/roundtable/event/static/css/2.1688f78b.chunk.css.map",
     "static/css/main.d6487686.chunk.css.map": "/roundtable/event/static/css/main.d6487686.chunk.css.map",
@@ -23,6 +23,6 @@
     "static/css/2.1688f78b.chunk.css",
     "static/js/2.1a727de5.chunk.js",
     "static/css/main.d6487686.chunk.css",
-    "static/js/main.0821515d.chunk.js"
+    "static/js/main.419b14e1.chunk.js"
   ]
 }
