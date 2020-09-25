@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/roundable/event/static/css/main.30a2ca68.chunk.css",
-    "main.js": "/roundable/event/static/js/main.04e0420c.chunk.js",
-    "main.js.map": "/roundable/event/static/js/main.04e0420c.chunk.js.map",
-    "runtime-main.js": "/roundable/event/static/js/runtime-main.e0114757.js",
-    "runtime-main.js.map": "/roundable/event/static/js/runtime-main.e0114757.js.map",
-    "static/css/2.1688f78b.chunk.css": "/roundable/event/static/css/2.1688f78b.chunk.css",
-    "static/js/2.1a727de5.chunk.js": "/roundable/event/static/js/2.1a727de5.chunk.js",
-    "static/js/2.1a727de5.chunk.js.map": "/roundable/event/static/js/2.1a727de5.chunk.js.map",
-    "index.html": "/roundable/event/index.html",
-    "precache-manifest.3afab2bdd4a9e8bda20f5f62a3412eee.js": "/roundable/event/precache-manifest.3afab2bdd4a9e8bda20f5f62a3412eee.js",
-    "service-worker.js": "/roundable/event/service-worker.js",
-    "static/css/2.1688f78b.chunk.css.map": "/roundable/event/static/css/2.1688f78b.chunk.css.map",
-    "static/css/main.30a2ca68.chunk.css.map": "/roundable/event/static/css/main.30a2ca68.chunk.css.map",
-    "static/js/2.1a727de5.chunk.js.LICENSE.txt": "/roundable/event/static/js/2.1a727de5.chunk.js.LICENSE.txt",
-    "static/media/fav.png": "/roundable/event/static/media/fav.ab37371b.png",
-    "static/media/home.css": "/roundable/event/static/media/home.765bb924.svg",
-    "static/media/walc_day.jpg": "/roundable/event/static/media/walc_day.c64d9de9.jpg"
+    "main.css": "/purduepspe.com/roundable/event/static/css/main.b0b91bdb.chunk.css",
+    "main.js": "/purduepspe.com/roundable/event/static/js/main.2de3ac53.chunk.js",
+    "main.js.map": "/purduepspe.com/roundable/event/static/js/main.2de3ac53.chunk.js.map",
+    "runtime-main.js": "/purduepspe.com/roundable/event/static/js/runtime-main.6d6bdbc7.js",
+    "runtime-main.js.map": "/purduepspe.com/roundable/event/static/js/runtime-main.6d6bdbc7.js.map",
+    "static/css/2.1688f78b.chunk.css": "/purduepspe.com/roundable/event/static/css/2.1688f78b.chunk.css",
+    "static/js/2.1a727de5.chunk.js": "/purduepspe.com/roundable/event/static/js/2.1a727de5.chunk.js",
+    "static/js/2.1a727de5.chunk.js.map": "/purduepspe.com/roundable/event/static/js/2.1a727de5.chunk.js.map",
+    "index.html": "/purduepspe.com/roundable/event/index.html",
+    "precache-manifest.daede93d76c40555fef550962fe373ca.js": "/purduepspe.com/roundable/event/precache-manifest.daede93d76c40555fef550962fe373ca.js",
+    "service-worker.js": "/purduepspe.com/roundable/event/service-worker.js",
+    "static/css/2.1688f78b.chunk.css.map": "/purduepspe.com/roundable/event/static/css/2.1688f78b.chunk.css.map",
+    "static/css/main.b0b91bdb.chunk.css.map": "/purduepspe.com/roundable/event/static/css/main.b0b91bdb.chunk.css.map",
+    "static/js/2.1a727de5.chunk.js.LICENSE.txt": "/purduepspe.com/roundable/event/static/js/2.1a727de5.chunk.js.LICENSE.txt",
+    "static/media/fav.png": "/purduepspe.com/roundable/event/static/media/fav.ab37371b.png",
+    "static/media/home.css": "/purduepspe.com/roundable/event/static/media/home.765bb924.svg",
+    "static/media/walc_day.jpg": "/purduepspe.com/roundable/event/static/media/walc_day.c64d9de9.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e0114757.js",
+    "static/js/runtime-main.6d6bdbc7.js",
     "static/css/2.1688f78b.chunk.css",
     "static/js/2.1a727de5.chunk.js",
-    "static/css/main.30a2ca68.chunk.css",
-    "static/js/main.04e0420c.chunk.js"
+    "static/css/main.b0b91bdb.chunk.css",
+    "static/js/main.2de3ac53.chunk.js"
   ]
 }
