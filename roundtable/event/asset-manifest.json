@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/roundtable/event/static/css/main.ecdf3bbb.chunk.css",
-    "main.js": "/roundtable/event/static/js/main.7635219d.chunk.js",
-    "main.js.map": "/roundtable/event/static/js/main.7635219d.chunk.js.map",
+    "main.css": "/roundtable/event/static/css/main.52d14419.chunk.css",
+    "main.js": "/roundtable/event/static/js/main.97f38e35.chunk.js",
+    "main.js.map": "/roundtable/event/static/js/main.97f38e35.chunk.js.map",
     "runtime-main.js": "/roundtable/event/static/js/runtime-main.7fbdf1b5.js",
     "runtime-main.js.map": "/roundtable/event/static/js/runtime-main.7fbdf1b5.js.map",
     "static/css/2.1688f78b.chunk.css": "/roundtable/event/static/css/2.1688f78b.chunk.css",
-    "static/js/2.b8aa9908.chunk.js": "/roundtable/event/static/js/2.b8aa9908.chunk.js",
-    "static/js/2.b8aa9908.chunk.js.map": "/roundtable/event/static/js/2.b8aa9908.chunk.js.map",
+    "static/js/2.bf07f424.chunk.js": "/roundtable/event/static/js/2.bf07f424.chunk.js",
+    "static/js/2.bf07f424.chunk.js.map": "/roundtable/event/static/js/2.bf07f424.chunk.js.map",
     "index.html": "/roundtable/event/index.html",
-    "precache-manifest.0fde5bfb277b0755cbb873d1e016245d.js": "/roundtable/event/precache-manifest.0fde5bfb277b0755cbb873d1e016245d.js",
+    "precache-manifest.91548d2a25903a0e8d2801bd55f55eb4.js": "/roundtable/event/precache-manifest.91548d2a25903a0e8d2801bd55f55eb4.js",
     "service-worker.js": "/roundtable/event/service-worker.js",
     "static/css/2.1688f78b.chunk.css.map": "/roundtable/event/static/css/2.1688f78b.chunk.css.map",
-    "static/css/main.ecdf3bbb.chunk.css.map": "/roundtable/event/static/css/main.ecdf3bbb.chunk.css.map",
-    "static/js/2.b8aa9908.chunk.js.LICENSE.txt": "/roundtable/event/static/js/2.b8aa9908.chunk.js.LICENSE.txt",
+    "static/css/main.52d14419.chunk.css.map": "/roundtable/event/static/css/main.52d14419.chunk.css.map",
+    "static/js/2.bf07f424.chunk.js.LICENSE.txt": "/roundtable/event/static/js/2.bf07f424.chunk.js.LICENSE.txt",
     "static/media/fav.png": "/roundtable/event/static/media/fav.ab37371b.png",
     "static/media/home.css": "/roundtable/event/static/media/home.765bb924.svg",
     "static/media/walc_day.jpg": "/roundtable/event/static/media/walc_day.c64d9de9.jpg"
@@ -21,8 +21,8 @@
   "entrypoints": [
     "static/js/runtime-main.7fbdf1b5.js",
     "static/css/2.1688f78b.chunk.css",
-    "static/js/2.b8aa9908.chunk.js",
-    "static/css/main.ecdf3bbb.chunk.css",
-    "static/js/main.7635219d.chunk.js"
+    "static/js/2.bf07f424.chunk.js",
+    "static/css/main.52d14419.chunk.css",
+    "static/js/main.97f38e35.chunk.js"
   ]
 }
